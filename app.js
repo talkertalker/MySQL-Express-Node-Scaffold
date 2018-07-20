@@ -2,6 +2,7 @@ const express = require('express');
 const mysql = require('mysql');
 const path = require('path');
 
+// Create DB connection...
 const db = mysql.createConnection({
   host    : 'localhost',
   port    : 'port',
@@ -15,6 +16,7 @@ db.connect((err) => {
   console.log('Successfully connected to MySQL server...');
 });
 
+// Initialize Express.js server...
 const app = express();
 
 app.get('/', (req, res) => {
