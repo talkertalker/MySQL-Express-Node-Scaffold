@@ -1,0 +1,16 @@
+{
+  "name": "mysql-express-node-scaffold",
+  "version": "1.0.0",
+  "description": "A scaffold for projects that use MySQL and Express.js as their backend, with a client folder for frontend projects.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.16.0"
+  }
+}
