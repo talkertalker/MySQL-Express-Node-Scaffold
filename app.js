@@ -4,11 +4,11 @@ const path = require('path');
 
 // Create DB connection...
 const db = mysql.createConnection({
-  host    : 'localhost',
-  port    : 'port',
-  user    : 'user',
+  host: 'localhost',
+  port: '4040',
+  user: 'user',
   password: 'password',
-  database: 'database'
+  database: 'DB_name',
 });
 
 db.connect((err) => {
@@ -20,7 +20,7 @@ db.connect((err) => {
 const app = express();
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname) + '/client/index.html');
+  res.sendFile(`${path.join(__dirname)}/client/index.html`);
 });
 
 app.listen('4040', () => {
