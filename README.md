@@ -16,3 +16,9 @@ navigate into the project's root directory and type:
 ## To run locally:
 
 `npm start`
+
+## To serve static files:
+
+If you have HTML files or other static files that you want this server to serve, put them in MySQL-Express-Node-Scaffold/client
+
+You can also run scaffolding applications like create-react-app or vue-cli and use this directory as your front-end home directory.
