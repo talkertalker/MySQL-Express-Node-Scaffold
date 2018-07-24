@@ -21,4 +21,5 @@ navigate into the project's root directory and type:
 
 If you have HTML files or other static files that you want this server to serve, put them in `MySQL-Express-Node-Scaffold/client`
 
-You can also run scaffolding applications like create-react-app or vue-cli and use this directory as your front-end home directory.
+You can also run scaffolding applications like create-react-app or vue-cli and use this directory as your front-end home directory,
+#### but make sure that your build paths are all correctly updated when you build and/or deploy your server.
