@@ -3,14 +3,16 @@ A repository of boilerplate code to get you started on simple projects using Exp
 
 #### Note: If you are having trouble getting your server connection started, remember to alter the MySQL connection information in the app.js file. You will need to put in your own MySQL DB server information.
 
-To download:
+## To download:
 
 `git clone https://github.com/talkertalker/MySQL-Express-Node-Scaffold`
 
-To install dependencies, navigate into the project's root directory and type:
+## To install dependencies,
+
+navigate into the project's root directory and type:
 
 `npm install`
 
-To run locally:
+## To run locally:
 
 `npm start`
